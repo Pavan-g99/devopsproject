@@ -2,6 +2,7 @@ Hello
 Hi
 a=30
 jkkh
->>>>>>> b20669541a1b6c8cebf17a3bcccb6d047096d1e2
 
 ghh
+=======
+>>>>>>> e73cf45dcc766d4ba46e733fe847101f84648bcb
