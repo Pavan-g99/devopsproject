@@ -12,6 +12,7 @@ pipeline{
            steps{
                checkout 'scm'
            }
+        }
        stage('hii') {
            steps{
                echo "$BUILD_NUMBER"
