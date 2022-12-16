@@ -21,7 +21,9 @@ pipeline{
        }
          stage ('show'){
            steps{
+               retry(5){
            sh 'cat cal.java'
+               }
                }
            } 
        }
