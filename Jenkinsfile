@@ -4,6 +4,10 @@ pipeline{
           }
           options {
   buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '6')
+            
+  skipDefaultCheckout true
+
+
 }
     stages{
        stage('hii') {
