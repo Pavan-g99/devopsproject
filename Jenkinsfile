@@ -17,7 +17,7 @@ pipeline{
        stage('hii') {
            steps{
                echo "$BUILD_NUMBER"
-               print "hi hejkj"
+               print "hi hejkjdf"
            }
        }
          stage ('show'){
